@@ -17,7 +17,12 @@ img{
     cursor: pointer;
     background-color: rgb(179, 38, 38);
 }
-
+.section-title{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
 
 
 /* navbar section styles */
@@ -54,6 +59,9 @@ img{
     height: 100vh;
     align-items: center;
     background-image: url(../images/background.png), linear-gradient(45deg, #000, #383636);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner-text{
     color: white;
@@ -67,6 +75,24 @@ img{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.banner-image{
+.banner-image, .about-us-image{
     width: 300px;
+}
+
+/* about us section styles */
+.about-us-main-container{
+    padding: 25px 0;
+}
+.about-us-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+#about-us-btn{
+    margin-top: 15px;
 }

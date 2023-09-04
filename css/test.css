@@ -9,3 +9,23 @@
 .mantra{
     cursor: url('../images/heart.png'), auto;
 }
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 1200px;
+    align-items: center;
+}
+.box{
+    padding: 50px;
+    background-color: darkred;
+    width: 100px;
+    height: 200px;
+}
+.box2{
+    background-color: rgb(2, 0, 139);
+}
+.box3{
+    background-color: rgb(37, 36, 54);
+}

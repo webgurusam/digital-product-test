@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.container{
+    padding-left: 50px;
+}
+.mantra{
+    cursor: url('../images/heart.png'), auto;
+}

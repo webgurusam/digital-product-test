@@ -96,3 +96,38 @@ img{
 #about-us-btn{
     margin-top: 15px;
 }
+
+/* service section styles */
+.service-main-container{
+    background-color: rgb(27, 26, 26);
+    padding: 70px 0 50px;
+}
+.service-main-container .section-title{
+    color: #ffffff;
+}
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.single-service-pack{
+    padding: 20px 20px 50px;
+    color: #ffffff;
+    background-color: #110f0fd7;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 100px 5px #eee4e45b;
+}
+.single-service-pack img{
+    width: 50%;
+}
+.single-service-description{
+    margin: 10px 0;
+}
+.details-btn{
+    padding: 10px 20px;
+    background-color: #1a1919;
+    color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+}
